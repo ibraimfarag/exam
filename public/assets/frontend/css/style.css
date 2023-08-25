@@ -1,0 +1,394 @@
+/* Fonts */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url("../font/GothamBold.ttf");
+}
+
+@font-face {
+    font-family: "GothamBook";
+    src: url("../font/GothamBook.ttf");
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: url("../font/GothamLight.ttf");
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url("../font/GothamMedium.ttf");
+}
+
+/* Static Styles */
+/* Reset Padding and Margin */
+.np {
+    padding: 0;
+}
+
+.nm {
+    margin: 0;
+}
+
+/* Container Styles */
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1287px !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Rounded Corners */
+.rounded-cr {
+    border-radius: 1.3rem !important;
+}
+
+/* Blockquote Styles */
+.blockquote-footer {
+    display: block;
+    font-size: 2.875em;
+    color: #6c757d;
+    line-height: 0.6;
+}
+
+/* Global Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "GothamBook", sans-serif !important;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    line-height: 1 !important;
+    min-height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    color: #666 !important;
+    font-size: 20px !important;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-top: 33px !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 120px;
+    padding-bottom: 2.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+.navbar-nav {
+    padding-left: 170px;
+}
+
+.nav-link {
+    font-size: 18px !important;
+}
+
+.navbar-nav > li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #161922 !important;
+    font-family: "GothamBook";
+    text-transform: uppercase;
+}
+
+.collapse {
+    padding-left: 33px !important;
+}
+
+/* Call Buttons Styles */
+.call_buttons {
+    border-radius: 9px;
+    background-color: rgb(179, 119, 73);
+    width: 229px;
+    height: 58px;
+    text-align: center;
+}
+
+.call_buttons img {
+    padding-bottom: 5px;
+    padding-right: 6px;
+}
+
+.call_buttons span {
+    font-size: 20px;
+    font-family: "GothamMedium";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: center;
+}
+
+/* Home Section Styles */
+.home-left-intro {
+    padding: 150px 0px 1px 80px;
+}
+
+.home-left-intro h1 {
+    font-size: 3.6rem !important;
+    font-family: "GothamBold";
+}
+
+.home-left-intro h2 {
+    font-size: 3.6rem !important;
+    font-family: "GothamBook";
+    width: 35vw;
+}
+
+.home-left-intro p {
+    font-size: 1.4rem !important;
+    font-family: "GothamLight";
+    width: 25vw;
+    padding-top: 21px;
+    line-height: 2rem;
+}
+
+.go_tech_buttons {
+    border-radius: 9px;
+    background-color: rgb(179, 119, 73);
+    width: 250px;
+    height: 58px;
+    text-align: center;
+}
+
+.go_tech_buttons span {
+    font-size: 17px;
+    font-family: "GothamMedium";
+    color: rgb(255, 255, 255);
+    line-height: 3;
+    text-align: center;
+}
+
+.right {
+    height: 800px;
+}
+
+.row-image-intro {
+    display: flex;
+}
+
+.column-image-intro {
+    flex: 0;
+    padding: 7px 4px;
+}
+
+.column-image-intro img {
+    margin-top: -123px;
+    vertical-align: middle;
+}
+
+.section-intro {
+    height: 83.33333333333333vh;
+    overflow: hidden;
+}
+
+/* Properties Section Styles */
+.section-Properties {
+    background-color: #f1f3f8;
+}
+
+.Properties-left-intro {
+    padding: 150px 0px 1px 80px;
+}
+
+.Properties-left-intro h1 {
+    font-size: 3.6rem !important;
+    font-family: "GothamBold";
+}
+
+.Properties-left-intro h2 {
+    font-size: 3.6rem !important;
+    font-family: "GothamBook";
+    width: 35vw;
+}
+
+.Properties-left-intro p {
+    font-size: 1.4rem !important;
+    font-family: "GothamLight";
+    width: 59vw;
+    padding-top: 21px;
+    line-height: 2rem;
+}
+
+.Rectangle_7 {
+    border-radius: 9px;
+    background-color: rgb(241, 243, 248);
+    line-height: 25px;
+    padding: 5px 17px;
+}
+
+.button-properties a {
+    width: 200px !important;
+    padding: 0.975rem 0.95rem !important;
+    background-color: #b37749;
+    border: 0;
+    border-radius: 9px !important;
+    margin-top: 26px;
+}
+
+/* Cards Section Styles */
+.title-properties {
+    font-size: 21px;
+    color: rgb(22, 25, 34);
+    line-height: 1.667;
+    text-align: left;
+}
+
+.discrp-properties {
+    font-size: 16px;
+    color: rgb(179, 119, 73);
+    line-height: 2.223;
+    text-align: left;
+}
+
+.sym-properties {
+    font-size: 16px;
+    color: rgb(43, 178, 69);
+    font-weight: bold;
+    text-align: left;
+    line-height: 2;
+    padding-right: 5px;
+    padding-left: 40px;
+}
+
+.price-properties {
+    font-size: 26px;
+    color: rgb(43, 178, 69);
+    font-weight: bold;
+    text-align: left;
+}
+
+.plan-properties {
+    /* Add your styles for the plan properties here */
+}
+
+.sub-title-properties {
+    /* Add your styles for sub-title properties here */
+}
+
+/* Get in Touch Section Styles */
+.section-get-in {
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 18px;
+    font-family: "Gotham";
+    color: rgb(179, 119, 73);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section-dis {
+    font-size: 54px;
+    color: rgb(22, 25, 34);
+    line-height: 1.333;
+    text-align: left;
+}
+
+.get-in-left-intro {
+    padding: 150px 0px 1px 80px;
+}
+
+.get-in-left-intro h1 {
+    font-size: 3.6rem !important;
+    font-family: "GothamBold";
+}
+
+.get-in-left-intro h2 {
+    font-size: 3.6rem !important;
+    font-family: "GothamBook";
+    width: 45vw;
+}
+
+.get-in-left-intro p {
+    font-size: 1.4rem !important;
+    font-family: "GothamLight";
+    width: 59vw;
+    padding-top: 21px;
+    line-height: 2rem;
+}
+
+.Rectangle_7 {
+    border-radius: 9px;
+    background-color: rgb(241, 243, 248);
+    line-height: 25px;
+    padding: 5px 17px;
+}
+
+.button-properties a {
+    width: 200px !important;
+    padding: 0.975rem 0.95rem !important;
+    background-color: #b37749;
+    border: 0;
+    border-radius: 9px !important;
+    margin-top: 26px;
+}
+
+/* Contact Section Styles */
+.contact {
+    background: #dcdfea;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Carousel Styles */
+.carousel-inner {
+    height: 29vh !important;
+}
+
+.rt {
+    position: absolute;
+    right: 35px;
+    padding-top: 3px;
+}
+
+.carousel-inner {
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+}
+
+/* Form Styles */
+.form {
+    margin-top: 100px;
+}
+
+.form input {
+    border-radius: 6px;
+    line-height: 2.5;
+    background-color: #f1f3f8;
+    border: 2px solid #f1f3f8;
+    width: 650px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+.form input,
+label {
+    display: block;
+}
+
+.message-input {
+    width: 800px !important;
+    height: 500px !important;
+}
+
+@media (min-width: 576px) {
+}
